@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77f8db44-b447-480f-8b5d-f8688098814a" name="Default Changelist" comment="">
+    <list default="true" id="77f8db44-b447-480f-8b5d-f8688098814a" name="Default Changelist" comment="add gitignor file">
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/hayeon/springboot/service/PostsSerivce.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/hayeon/springboot/web/PostsApiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/hayeon/springboot/web/dto/PostsResponseDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/hayeon/springboot/web/dto/PostsSaveRequestDto$PostsSaveRequestDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/hayeon/springboot/web/dto/PostsSaveRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/hayeon/springboot/web/dto/PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/hayeon/springboot/web/dto/PostsUpdateRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/hayeon/springboot/web/PostsApiControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.hayeon.springboot.web.PostsApiControllerTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.hayeon.springboot.web.PostsApiControllerTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hayeon/springboot/service/PostsSerivce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hayeon/springboot/web/PostsApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hayeon/springboot/web/dto/PostsResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hayeon/springboot/web/dto/PostsSaveRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hayeon/springboot/web/dto/PostsUpdateRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hayeon/springboot/web/PostsApiControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/hayeon/springboot/domain/posts/Posts.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/hayeon/springboot/domain/posts/Posts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.hayeon.springboot.web.domain.posts.PostsRepositoryTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.hayeon.springboot.web.domain.posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.hayeon.springboot.web.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.hayeon.springboot.web.domain.posts.PostsRepositoryTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hayeon/springboot/domain/posts/Posts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hayeon/springboot/domain/posts/Posts.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -77,19 +99,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/domain/posts/Posts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+            <state relative-caret-position="420">
+              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/domain/posts/Posts.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/web/PostsApiController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="397">
+              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#863#864#0" expanded="true" />
+                <element signature="e#897#898#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/web/dto/PostsResponseDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/web/dto/PostsUpdateRequestDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,77 +156,55 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/domain/posts/PostsRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hayeon/springboot/web/PostsApiControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/service/PostsSerivce.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/web/dto/PostsSaveRequestDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/hayeon/springboot/web/domain/posts/PostsRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="75" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/web/dto/HelloResponseDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/hayeon/springboot/web/dto/HelloResponseDtoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/web/HelloController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/hayeon/springboot/web/HelloControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-201">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="643">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,7 +215,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
+            <state relative-caret-position="115">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -225,10 +258,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hayeon/springboot/web/HelloController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/hayeon/springboot/web/HelloControllerTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hayeon/springboot/domain/posts/PostsRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/hayeon/springboot/web/domain/posts/PostsRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hayeon/springboot/domain/posts/Posts.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hayeon/springboot/web/dto/PostsSaveRequestDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hayeon/springboot/domain/posts/PostsRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hayeon/springboot/web/dto/PostsResponseDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hayeon/springboot/web/dto/PostsUpdateRequestDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hayeon/springboot/domain/posts/Posts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hayeon/springboot/service/PostsSerivce.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hayeon/springboot/web/PostsApiControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hayeon/springboot/web/PostsApiController.java" />
       </list>
     </option>
   </component>
@@ -247,6 +286,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -301,7 +341,26 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
@@ -353,7 +412,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,20 +440,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.PostsRepositoryTest.게시글저장_블러오기">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hayeon.springboot.Application" />
-      <module name="study.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hayeon.springboot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.PostsApiControllerTest.Posts_수정된다">
     <configuration name="HelloControllerTest.helloDto가_리턴된다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -416,12 +461,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HelloControllerTest.hello가_리턴된다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HelloResponseDtoTest.롬복_기능_테스트" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.hayeon.springboot.web.HelloControllerTest.hello가_리턴된다&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.hayeon.springboot.web.dto.HelloResponseDtoTest.롬복_기능_테스트&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -436,12 +481,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HelloResponseDtoTest.롬복_기능_테스트" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PostsApiControllerTest.Posts_등록되다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.hayeon.springboot.web.dto.HelloResponseDtoTest.롬복_기능_테스트&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.hayeon.springboot.web.PostsApiControllerTest.Posts_등록되다&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PostsApiControllerTest.Posts_수정된다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.hayeon.springboot.web.PostsApiControllerTest.Posts_수정된다&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -478,11 +543,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PostsApiControllerTest.Posts_수정된다" />
+        <item itemvalue="Gradle.PostsApiControllerTest.Posts_등록되다" />
         <item itemvalue="Gradle.PostsRepositoryTest.게시글저장_블러오기" />
         <item itemvalue="Gradle.HelloControllerTest.helloDto가_리턴된다" />
         <item itemvalue="Gradle.HelloResponseDtoTest.롬복_기능_테스트" />
-        <item itemvalue="Gradle.HelloControllerTest.hello가_리턴된다" />
-        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -508,24 +573,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelloControllerTest_hello가_리턴된다 - 2020.02.29 at 03h 15m 05s.xml">
-      <configuration name="HelloControllerTest.hello가_리턴된다" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloResponseDtoTest_롬복_기능_테스트 - 2020.02.29 at 20h 34m 32s.xml">
-      <configuration name="HelloResponseDtoTest.롬복_기능_테스트" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="HelloControllerTest_helloDto가_리턴된다 - 2020.02.29 at 20h 50m 10s.xml">
-      <configuration name="HelloControllerTest.helloDto가_리턴된다" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="HelloControllerTest_hello가_리턴된다 - 2020.02.29 at 20h 51m 11s.xml">
-      <configuration name="HelloControllerTest.hello가_리턴된다" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="HelloControllerTest_helloDto가_리턴된다 - 2020.02.29 at 20h 51m 19s.xml">
-      <configuration name="HelloControllerTest.helloDto가_리턴된다" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="HelloResponseDtoTest_롬복_기능_테스트 - 2020.02.29 at 20h 54m 17s.xml">
-      <configuration name="HelloResponseDtoTest.롬복_기능_테스트" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="HelloControllerTest_helloDto가_리턴된다 - 2020.02.29 at 20h 54m 30s.xml">
       <configuration name="HelloControllerTest.helloDto가_리턴된다" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -538,11 +585,30 @@
     <history-entry file="PostsRepositoryTest_게시글저장_블러오기 - 2020.02.29 at 21h 59m 18s.xml">
       <configuration name="PostsRepositoryTest.게시글저장_블러오기" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="PostsApiControllerTest_Posts_등록되다 - 2020.03.11 at 22h 15m 34s.xml">
+      <configuration name="PostsApiControllerTest.Posts_등록되다" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="PostsApiControllerTest_Posts_등록되다 - 2020.03.11 at 22h 15m 35s.xml">
+      <configuration name="PostsApiControllerTest.Posts_등록되다" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="PostsApiControllerTest_Posts_등록되다 - 2020.03.11 at 22h 15m 40s.xml">
+      <configuration name="PostsApiControllerTest.Posts_등록되다" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="PostsApiControllerTest_Posts_등록되다 - 2020.03.11 at 22h 18m 04s.xml">
+      <configuration name="PostsApiControllerTest.Posts_등록되다" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="PostsApiControllerTest_Posts_수정된다 - 2020.03.14 at 21h 08m 02s.xml">
+      <configuration name="PostsApiControllerTest.Posts_수정된다" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="PostsApiControllerTest_Posts_수정된다 - 2020.03.14 at 21h 12m 53s.xml">
+      <configuration name="PostsApiControllerTest.Posts_수정된다" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -551,7 +617,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44034708" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2407809" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -604,95 +670,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hayeon/springboot/web/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hayeon/springboot/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hayeon/springboot/web/HelloController.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hayeon/springboot/Application.java" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="736">
           <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/domain/posts/PostsRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/domain/posts/Posts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/web/dto/HelloResponseDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/web/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hayeon/springboot/web/dto/HelloResponseDtoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hayeon/springboot/web/HelloControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-201">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -703,14 +686,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hayeon/springboot/web/domain/posts/PostsRepositoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/web/dto/HelloResponseDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="207">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hayeon/springboot/web/dto/HelloResponseDtoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/web/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hayeon/springboot/web/HelloControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hayeon/springboot/web/domain/posts/PostsRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/domain/posts/PostsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/web/dto/PostsSaveRequestDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/web/dto/PostsResponseDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/web/dto/PostsUpdateRequestDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/domain/posts/Posts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/service/PostsSerivce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hayeon/springboot/web/PostsApiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hayeon/springboot/web/PostsApiControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -765,7 +884,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>main|study</last-edited>
+          <last-edited>test|study</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
